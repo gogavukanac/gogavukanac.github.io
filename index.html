@@ -31,6 +31,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
 
 </head>
 
@@ -133,12 +134,12 @@
                     <p>Relax masaža je preventivna metoda koja pomaže vašem telu da se opusti, i uspostavi ravnotežu. Samo jedan sat relaks masaže nedeljno učiniće sledeće: eliminisati stres, poboljšati cirkulaciju, opustiti mišiće, podići raspoloženje, poboljšati koncentraciju i ubrzati metabolizam. Preporučuje se kod: napetosti u mišićima, umor, hroničan bol u leđima usled napetosti, lošeg sna !</p>
                 </div>
                 <div class="col-lg-12 col-md-6 text-center">
-                    
+
                     <h3>Ručna anticelulit masaža!</h3>
                     <p>Muškarci i žene mogu dobiti celulit. Celulit se formira onda kada se težina povećava, a masne naslage postaju zgrudvane ispod kože. Nastaje usled poremećaja lokalnog metabolizma u masnim tkivima. Kako starite, vaša koža gubi elastičnost, pa se usled povećavanja težine neravnomerno širi. Anticelulit masaža je najefikasniji način za rešavanje ovog problema. Anticelulit masaža razbija zgrudvane masne naslage i vraća koži tonus.!</p>
                 </div>
                 <div class="col-lg-12 col-md-6 text-center">
-                    
+
                     <h3>Vibro trenažer!</h3>
                     <p>Trening na vibracionoj podlozi, tj. stajanje na njoj u položaju koji izaziva kontrakciju mišića (polučučanj položaj, polusklek položaj) simulira pravljenje stotina čučnjeva ili sklekova. Znači ovim trenažerom se vežba i gornji i donji deo tela na najzdraviji i najlakši mogući način, bez ozlede zglobova. Naučno je dokazano da vibracije pozitivno utiču na cirkulaciju a samim tim na celokupno zdravlje. Vibracijama se takođe ubrzava metabolizam i podstiče proces mršavljenja. Redovnim treningom na vibro-trenažeru od 10-20min dnevno već za mesec dana možete da vidite rezultate na vašem telu. Ovaj trenažer namenjen je i ženskoj i muškoj populaciji, svima onima koji nemaju vremena za odlazak u fitness centre!</p>
                 </div>
@@ -256,10 +257,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Pozovite nas!</h2>
+                    <h2 class="section-heading">Pozovite!</h2>
                     <hr class="primary">
                     <p>Rešili ste da se zategnete? Sjajno! Mi Vaše želje pretvaramo u stvarnost!</p>
                 </div>
+            </div>
+            <div class="row" style="width: 100%">
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
                     <p><a href="tel:+38162443683">062443683</a></p>
@@ -268,6 +271,9 @@
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:gogavukanac@gmail.com">masazedusa@gmail.com</a></p>
                 </div>
+            </div>
+            <div class="row" style="width: 100%">
+                <div id="map" style="width:500px; height:300px; background: yellow; margin: 0 auto"></div>
             </div>
         </div>
     </section>
@@ -285,6 +291,8 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALS-t3BGNOOeNFiFjKL35SSvkkcGVSwtg&callback=initMap"
+    async defer></script>
 
 </body>
 
